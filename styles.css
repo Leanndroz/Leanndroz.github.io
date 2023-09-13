@@ -1,6 +1,11 @@
 * {
     padding: 0;
     margin: 0;
+    
+}
+
+html {
+    overflow-y:scroll;
 }
 
 #heading {
@@ -57,4 +62,10 @@
 #java_args {
     margin-left: 3em;
     list-style: none;
+}
+
+#centerme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
